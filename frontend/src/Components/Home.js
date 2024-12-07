@@ -3,8 +3,8 @@ import AddCourse from './Course/AddCourse';
 import AddStudent from './Student/AddStudent';
 import StudentList from './Student/Studentlist';
 import CourseList from './Course/CourseList';
-import FetchStudentById from './Student/Fetch_Update_Student';
-import FetchCourseById from './Course/Fetch_Update_Course';
+import FetchStudentById from './Student/FetchStudent';
+import FetchCourseById from './Course/FetchCourse';
 import Logout from './User/Logout';
 
 const Home = () => {
