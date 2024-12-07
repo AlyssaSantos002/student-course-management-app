@@ -23,7 +23,6 @@ const AddCourse = () => {
         alert("Course added successfully!")
       })
       .catch(error => console.error("Cannot add Course:", error));
-      alert("Error adding Course!")
   };
 
   return (

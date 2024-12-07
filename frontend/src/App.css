@@ -1,3 +1,16 @@
+.App {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(rgba(59, 59, 59, 0.5), rgba(81, 81, 81, 0.5)), url('/img/image.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:auto;
+}
+
 /* User components styling */
 .login-container{
   position: relative; 
@@ -50,8 +63,7 @@
 
 /* Home component styling */
 .home {
-  display: block;
-  margin-top: 80px;
+  /* display: block; */
 }
 
 .home h1 {
@@ -59,23 +71,22 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   font-style: italic;
-  margin-top: 80px;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .container1 {
   display: flex;
   gap: 20px;
-  margin: 20px;
+  padding: 0px 40px 60px;
 }
 
-.container2 {
-  display: flex;
-  gap: 20px;
+.logout button{
   margin: 20px;
+  padding: 10px;
+  font-size:30px;
 }
-
-.logout1 {
-  margin: 50px;
+.logout{
   text-align: right;
 }
 

@@ -4,7 +4,7 @@ import './App.css';
 
 import Login from './Components/User/Login';
 import Register from './Components/User/Register';
-import Home from './Components/Home/Home';
+import Home from './Components/Home';
 
 function App() {
   return (

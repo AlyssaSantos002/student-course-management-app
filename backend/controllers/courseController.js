@@ -16,7 +16,7 @@ exports.getCourseById = async (req, res) => {
         const course =  await Course.findOne({id: courseId});
 
         if (!course) {
-            return res.status(404).json({ mess: 'Course not found' });
+            return res.status(404).json({ message: 'Course not found' });
         }
 
         res.status(200).json(course)
@@ -68,7 +68,7 @@ exports.updateCourse = async (req, res) => {
         const updatedCourse = await Course.findOneAndUpdate({id: courseId}, updatedData, {new : true});
 
         if (!updatedCourse) {
-            return res.status(404).json({ mess: 'Course not found' });
+            return res.status(404).json({ message: 'Course not found' });
         }
 
         res.status(200).json(updatedCourse);
